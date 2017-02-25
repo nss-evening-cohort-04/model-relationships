@@ -121,7 +121,29 @@ Rows of a table are analogous to **instances** of an object.
 ## Example: Github
 
 
-.center.larger[Discuss the models: **User**, **Repository**, **Wiki** and **Pull Request**]
+.center.larger[Discuss the likely relationships between the models: **User**, **Repository**, **Wiki** and **Pull Request**]
+
+--
+
+- User and Repository
+
+--
+
+- Repository and Wiki
+
+--
+
+- Repository and Pull Request
+
+--
+
+- User and Pull Request
+
+---
+
+## Example: Github
+
+.center.larger[Discuss the likely relationships between the models: **User**, **Repository**, **Wiki** and **Pull Request**]
 
 --
 
@@ -129,8 +151,14 @@ Rows of a table are analogous to **instances** of an object.
 
 --
 
+- How would we represent a Fork of a **Repository**? Is it an Entity or Association?
 
+---
+
+## Example: Grocery Store
+
+.center.larger[Come up with a list of entities/models that represent key components of a grocery store]
 
 --
 
-- How would we represent a Fork of a **Repository**? Is it an Entity or Association?
+.center.larger[Dicusss the likely relationships between the models]
